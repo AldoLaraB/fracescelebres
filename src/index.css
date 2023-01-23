@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Anton', sans-serif;
+  background-color: #ccc;
+}
+
+.hero{
+  background-color: #999;
+  margin: 50px auto 10px auto;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 30px;
+}
+
+.texto{
+  width: 70%;
+  color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight:100;
+  font-size: 40px;
+  background-image: url('https://picsum.photos/id/130/600');
+  background-size: cover;
+  background-position-y: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.texto-autor{
+  width: 70%;
+  font-family: 'Ms Madi', cursive;
+  font-size: 30px;
+  text-align: right;
+  color: #fff;
+}
+
+.envio{
+  width: 50%;
+  border-radius: 30px;
+  border: solid 1px #fff;
+  cursor: pointer;
+  text-align: center;
+  margin: 20px auto 20px auto;
+}
+
