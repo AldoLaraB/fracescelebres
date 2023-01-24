@@ -9,7 +9,7 @@ function App() {
   const [quote, setquote] = useState("");
   const [autor, setautor] = useState("");
 
-  const initialUrl = "http://api.quotable.io/random";
+  const initialUrl = "https://api.quotable.io/random";
 
   const quotasautor = (url) => {
     // CREARE function con valore FETCH che legge L'API's
