@@ -6,10 +6,10 @@ import Twitter from "./Twitter";
 
 function App() {
   const [quote, setquote] = useState("");
-  const [autor, setautor] = useState("");
+  const [author, setautor] = useState("");
 
-  const initialUrl = "https://type.fit/api/quotes";
-  //https://type.fit/api/quotes
+  const initialUrl = "https://geek-quote-api.vercel.app/v1/quote";
+
   const quotasautor = (url) => {
     // CREARE function con valore FETCH che legge L'API's
     fetch(url)
@@ -36,7 +36,7 @@ function App() {
     <div id="quote-box" className="App hero">
       <Twitter />
       <Frasi frase={quote} />
-      <Autore autor={autor} />
+      <Autore autor={author} />
       <Boton nf={newquote} />
     </div>
   );
